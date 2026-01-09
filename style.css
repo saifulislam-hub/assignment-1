@@ -62,7 +62,7 @@
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    background: linear-gradient(rgba(13, 22, 43, 0.085)), url('../assignment-1/assets/hero-bg.png') ;
+    background: linear-gradient(rgba(13, 22, 43, 0.085)), url('assets/hero-bg.png') ;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
