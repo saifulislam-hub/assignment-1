@@ -1,0 +1,288 @@
+/* common selector part */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* header css part */
+.navbar {
+    width: 100%;
+    padding: 15px 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.nav-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Nav Links Styling */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #4a8c63;
+}
+.btn {
+    background-color: #4a8c63;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #0eca53;
+}
+
+/* Hero banner css */
+.hero-banner {
+    position: relative;
+    min-height: 674px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(rgba(13, 22, 43, 0.085)), url('../assignment-1/assets/hero-bg.png') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+/* Badge Styling */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    background: #ffffff;
+    color: #4a8c63;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #4db371;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.hero-content h1 {
+    font-size: 72px; 
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 16px;
+  
+}
+
+.hero-content .highlight {
+    color: #4db371; 
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin-bottom: 45px;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-content .group-btn {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.group-btn .btn {
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.group-btn .btn .btn-primary {
+    background-color: #4a8c63;
+    color: white;
+}
+
+.group-btn .btn .btn-primary:hover {
+    background-color: #0eca53;
+}
+
+.group-btn .btn-secondary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.group-btn .btn-secondary span {
+    margin-left: 10px;
+}
+
+.group-btn .btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #ffffff;
+}
+
+/* Note section css */
+.notes-section {
+    padding: 80px 20px 0px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.section-header h2 {
+    font-size: 42px;
+    color: #001d3d;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.section-header p {
+    font-size: 18px;
+    color: #64748b;
+    margin-bottom: 60px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 25px;
+}
+
+.cards-container .note-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid #f1f5f9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.cards-container .note-card:hover {
+    background-color: #f0f0f0;
+}
+
+.cards-container .note-card .icon-base {
+    width: 60px;
+    height: 60px;
+    background-color: #ff5e5e; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 25px auto;
+}
+
+.cards-container .note-card .icon-base img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.cards-container .note-card .note-card h3 {
+    font-size: 22px;
+    color: #0f172a;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.cards-container .note-card .note-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #64748b;
+}
+
+/* brain section css */
+
+.second-brain {
+    margin: 110px;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+/* .center-icon {
+    max-width: 600px;
+    max-height: 600px;
+} */
+
+.content-side .sub-heading {
+    color: #4a8c63;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.content-side h2 {
+    font-size: 48px;
+    color: #0f172a;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.content-side p {
+    color: #64748b;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.feature-list {
+    list-style: none;
+    padding-top: 40px;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #1e293b;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+}
