@@ -160,7 +160,7 @@
 /* Note section css */
 .notes-section {
     padding: 80px 20px 0px 20px;
-    max-width: 1200px;
+    max-width: 1360px;
     margin: 0 auto;
     text-align: center;
     background-color: #ffffff;
@@ -234,7 +234,7 @@
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1360px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -298,7 +298,7 @@
 .cta-card {
     background-color: #f9f8f4;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1360px;
     padding: 80px 40px;
     border-radius: 12px;
     text-align: center;
@@ -341,4 +341,66 @@
     font-size: 14px;
     color: #94a3b8; 
     font-weight: 500;
+}
+/* Main footer css */
+.main-footer {
+    background-color: #001529;
+    color: #ffffff;
+    padding: 60px 20px 30px;
+}
+
+.footer-container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.social-links h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: right;
+    text-align: center;
+}
+
+.social-links .icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.social-links a {
+    color: #001529;
+    background-color: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-links a:hover {
+    background-color: #4a8c63;
+    color: #ffffff;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #94a3b8;
 }
