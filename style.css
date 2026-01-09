@@ -229,7 +229,7 @@
 /* brain section css */
 
 .second-brain {
-    margin: 110px;
+    margin: 110px 110px 65px 110px;
     background-color: #ffffff;
 }
 
@@ -288,7 +288,7 @@
 }
 /* early access section */
 .access-section {
-    padding: 100px 20px;
+    padding: 50px 20px 100px 20px;
     background-color: #ffffff; 
     display: flex;
     justify-content: center;
